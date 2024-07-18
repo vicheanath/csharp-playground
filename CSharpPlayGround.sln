@@ -3,9 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPlayGround", "CSharpPlayGround\CSharpPlayGround.csproj", "{1B7F6359-FC88-42DF-940A-0085E70578B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpPlayGround", "CSharpPlayGround\CSharpPlayGround.csproj", "{1B7F6359-FC88-42DF-940A-0085E70578B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPlayGround.Test", "CSharpPlayGround.Test\CSharpPlayGround.Test.csproj", "{66B1FBEB-244D-46F5-9759-DDFB30E636DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpPlayGround.Test", "CSharpPlayGround.Test\CSharpPlayGround.Test.csproj", "{66B1FBEB-244D-46F5-9759-DDFB30E636DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{3EBF716E-E450-4121-BAB8-D030D6008AB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflow", "workflow", "{3D26CA63-818C-4DD0-A09D-7F1CACF4A698}"
+	ProjectSection(SolutionItems) = preProject
+		test.yml = test.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +31,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D26CA63-818C-4DD0-A09D-7F1CACF4A698} = {3EBF716E-E450-4121-BAB8-D030D6008AB0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A096A0C9-30E4-4683-B846-6CDC15A6FD8C}
